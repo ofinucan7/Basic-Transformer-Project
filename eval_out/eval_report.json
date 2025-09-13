@@ -1,0 +1,26 @@
+{
+  "weights": "model_weights.pth",
+  "device": "cuda",
+  "vocab_size": 2725,
+  "context_length": 256,
+  "stride": 16,
+  "batch_size": 64,
+  "grad_accum_steps": 4,
+  "label_smoothing_train": 0.1,
+  "num_epochs": 10,
+  "corpus_sha": "78eea353d5970fd36b7666578824c00b81a4b9eeaaaad24b20c3b89fc2c47979",
+  "merges_sha": "edf6ce0052a35b6d5824a54720978b9331ba35af66dfcc519debd7fd9a685a4d",
+  "train_tokens_evald": 3276800,
+  "val_tokens_evald": 15748608,
+  "train_loss": 2.7024525940418243,
+  "train_ppl": 14.91627045526573,
+  "val_loss": 2.6474546023046726,
+  "val_ppl": 14.11805680150686,
+  "sanity_path": null,
+  "sanity_ppl": null,
+  "notes": "",
+  "plots": {
+    "train_vs_val_loss": "eval_out\\train_vs_val_loss.png",
+    "lr_schedule": "eval_out\\lr_schedule.png"
+  }
+}

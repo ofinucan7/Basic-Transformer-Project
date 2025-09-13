@@ -1,0 +1,13 @@
+Evaluation Report
+=================
+Weights: model_weights.pth
+Device: cuda
+Vocab size: 2725
+Context/Stride: 256/16
+Train tokens evald: 3276800
+Val tokens evald  : 15748608
+Train Loss: 2.7025  | PPL≈14.92
+Val   Loss: 2.6475    | PPL≈14.12
+Sanity PPL (None): None
+LR Plot: eval_out\lr_schedule.png
+Notes: 
